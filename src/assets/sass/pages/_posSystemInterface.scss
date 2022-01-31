@@ -1,0 +1,81 @@
+.page-wrapper {
+    height: 100vh;
+    > .row {
+        height: 100%;
+        margin: 0;
+    }
+}
+.container-fluid {
+    padding: 0;
+}
+.warehouse-actions {
+    height: 20%;
+}
+.billedItemTable {
+    height: 50%;
+    border-collapse: collapse;
+    overflow-y: auto;
+    display: block;
+    tr th, tr td {
+        font-size: 0.8rem;
+    }
+    tbody {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 140px;
+    }
+    .form-control {
+        height: 30px;
+    }
+}
+.product-summery {
+    height: 30%;
+}
+.order-info {
+    font-size: 0.9rem;
+}
+.order-action-wrapper {
+    margin: 0;
+    [class*="col-"] {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+.order-actions, .order-action-wrapper {
+    .btn {
+        border-radius: 0;
+        color: white;
+        border: 0;
+        &-warning {
+            background: #d58c2b;
+        }
+        &-secondary {
+            background: #3ea5cd;
+        }
+        &-danger {
+            background: #b12126;
+        }
+        &-primary {
+            background: #3789db;
+        }
+        &-success {
+            background: #219127;
+        }
+    }
+}
+.walk-customer, .warehouse-list, .search-product {
+    .form-select {
+        font-size: 0.8rem;
+    }
+}
+.icon {
+    font-size: 18px;
+    svg {
+        width: auto;
+        padding: 0 3px;
+    }
+}
+.wrapper {
+    padding: 0 15px;
+    background: #f1f1f1;
+}
